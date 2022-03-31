@@ -1,0 +1,32 @@
+[
+    {
+        "id:":"b144a492-9c92-4ee1-a758-a7a610258a97",
+        "startlocation":"Columbia, South Carolina",
+        "departingAirportCode":"KCAE",
+        "destination":"Seattle, Washington",
+        "arrivingAirportCode":"KSEA",
+        "layover":"0",
+        "airline":"Delta",
+        "departureDate":"04/14/2022",
+        "arrivalDate":"04/14/2022",
+        "departureTime":"12:00 AM",
+        "arrivalTime":"4:00 AM",
+        "travelTime":"4.0",
+        "carryOn":true,
+        "numOfCheckedBags":"2",
+        "capacity":"11",
+        "seat": [
+            {"seatNumber":"1", "class":"First Class", "availability":true},
+            {"seatNumber":"2", "class":"First Class", "availability":true},
+            {"seatNumber":"3", "class":"First Class", "availability":true},
+            {"seatNumber":"4", "class":"Coach", "availability":true},
+            {"seatNumber":"5", "class":"Coach", "availability":true},
+            {"seatNumber":"6", "class":"Coach", "availability":true},
+            {"seatNumber":"7", "class":"Coach", "availability":true},
+            {"seatNumber":"8", "class":"Coach", "availability":true},
+            {"seatNumber":"9", "class":"Business", "availability":true},
+            {"seatNumber":"10", "class":"Business", "availability":false},
+            {"seatNumber":"11", "class":"Business", "availability":true}
+        ]
+    }
+]
