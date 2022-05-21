@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>USC Survey</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">University of South Carolina Graduate Survey</h1>
+        <p id="description">Thank you for taking the time to tell us about your experience!</p>
+    </header>
+
+    <form id="survey-form">
+        <div class="form-div">
+            <label id="name-label" for="name">Name</label>
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="survey-form">
+            <label id="email-label" for="email">Email</label>
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="survey-form">
+            <label id="number-label" for="number">Age</label>
+            <input class="form-input" type="number" name="age" id="number" placeholder="Age" min="15" max="99" required>
+        </div>
+
+        <div>
+            <p class="form">Which campus did you attend?</p>
+            <select class="form-input" id="dropdown">
+                <option>Select your campus</option>
+                <option value="aiken">USC Aiken</option>
+                <option value="beaufort">USC Beaufort</option>
+                <option value="columia">USC Columbia</option>
+                <option value="lancaster">USC Lancaster</option>
+                <option value="sumter">USC Sumter</option>
+                <option value="union">USC Union</option>
+                <option value="upstate">USC Upstate</option>
+                <option value="salkehatchie">USC Salkehatchie</option>
+            </select>
+        </div>
+
+        <div>
+            <p>Would you recommend USC to high school students?</p>
+            <label>
+                <input type="radio" name="user-select" value="of-course" checked>Of course
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="user-select" value="maybe">Maybe
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="user-select" value="not-sure">Not sure
+            </label>
+        </div>
+
+        <div>
+            <p>What was your favorite college experience?</p>
+            <select class="form-input">
+                <option>Select your favorite experience</option>
+                <option value="parties">Parties</option>
+                <option value="events">Campus events</option>
+                <option value="organizations">Student organizations</option>
+                <option value="other">Other</option>
+                <option value="didnt-have-one">Didn't have a college experience</option>
+            </select>
+        </div>
+
+        <div>
+            <p>What would you like to see improved on campus? (Check all that apply)</p>
+            <label>
+                <input type="checkbox" name="improvements" value="parking">More parking
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="improvements" value="housing">Better housing
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="improvements" value="class-buildings">More class buildings
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="improvements" value="move-in">Easy move-in
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="improvements" value="meal-plans">More meal plan options
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="improvements" value="food-options">More places to eat
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="improvements" value="clean">Keep the campus grounds clean
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="improvements" value="teachears">Raise standards for teachers
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="improvements" value="overcrowding">Address overcrowding
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="improvements" value="nothing">Nothing
+            </label>
+        </div>
+
+        <div>
+            <p>Any additional comments about your experience?</p>
+            <textarea class="input-text" id="comments" name="comment" placeholder="Enter your comments here" rows="5" cols="60"></textarea>
+        </div>
+
+        <div>
+            <button class="submit-button" id="submit" type="submit">Submit</button>
+        </div>
+
+    </form>
+</body>
+</html>

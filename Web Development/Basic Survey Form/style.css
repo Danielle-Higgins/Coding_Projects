@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    font-family: helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: lightgreen;
+    background-image: url(https://besthqwallpapers.com/Uploads/24-5-2020/134472/thumb2-south-carolina-gamecocks-american-football-team-emblem-silk-flag-red-black-silk-texture.jpg);
+}
+
+p.form {
+    margin-right: 300px;
+}
+
+.form-div {
+    margin-right: 525px;
+    margin-top: 20px;
+}
+
+#email-label {
+    margin-right: 525px;
+    margin-top: 20px;
+}
+
+#number-label {
+    margin-right: 525px;
+    margin-top: 20px;
+}
+
+.form-input {
+    display: block;
+    width: 575px;
+    height: 30px;
+    margin-left: 35px;
+    border: 1px solid black;
+    border-radius: 1%;
+}
+
+form {
+    background-color: #73000A;
+    border: 5px solid black;
+    width: 650px;
+    margin: auto;
+    border-radius: 1%;
+}
+
+.input-text {
+    width: 600px;
+    height: 150px;
+}
+
+.submit-button {
+    background: red;
+    color: white;
+    width: 500px;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 5%;
+}
+
+.submit-button:hover {
+    background: gray;
+}
